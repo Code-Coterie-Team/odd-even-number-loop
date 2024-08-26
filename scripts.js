@@ -1,5 +1,6 @@
-function checkOddEven(limit) {
-    for (let i = 0; i <= limit; i++) {
+function checkOddEven() {
+    let input = document.getElementById("user-input").value;
+    for (let i = 0; i <= input; i++) {
         if (i % 2 === 0) {
             console.log(i + " EVEN");
         } else {
@@ -7,6 +8,3 @@ function checkOddEven(limit) {
         }
     }
 }
-
-let input = 10; 
-checkOddEven(input);
