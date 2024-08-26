@@ -1,5 +1,5 @@
 function checkOddEven(limit) {
-    for (let i = 1; i <= limit; i++) {
+    for (let i = 0; i <= limit; i++) {
         if (i % 2 === 0) {
             console.log(i + " EVEN");
         } else {
